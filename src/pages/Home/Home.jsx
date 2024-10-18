@@ -1,4 +1,5 @@
 import React from 'react'
+import Highlight from '../../components/Highlight/Highlight'
 
 /**
  *
@@ -8,6 +9,7 @@ import React from 'react'
 function Home() {
     return (
         <div className='home-page'>
+            <Highlight />
         </div>
     )
 }
